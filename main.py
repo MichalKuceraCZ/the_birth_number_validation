@@ -10,9 +10,8 @@ def rodne_cislo(cislo):
         print(number_in)
     return len(number_in) == 10
 
-
 def rodne_cislo1(cislo):
     while cislo:
         if cislo == "/":
             break
-        cislo += cislo
+        return len(cislo) == 11
